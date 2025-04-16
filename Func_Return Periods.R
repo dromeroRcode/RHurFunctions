@@ -1,5 +1,3 @@
-#Funciones de ajustes
-
 AjustNormGraph<-function (x,xlab,ylab,type){
   if (type=="min"){x <- x[order(x)] } else {x <- x[order(-x)] }
   if (type=="min"){aa="topleft"}else{aa="bottomleft"}
